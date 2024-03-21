@@ -476,7 +476,7 @@ document.write(`
 <ul class="simple">
 <li><p>Hitung akurasi dan perbandingan tiap metode</p></li>
 </ul>
-<img src="hqdefault.jpg" width="" align="" /></section>
+<img src="./foto/hqdefault.jpg" width="" align="" /></section>
 <section id="tools-dan-melakukan-inisialiasasi">
 <h2>tools dan melakukan inisialiasasi<a class="headerlink" href="#tools-dan-melakukan-inisialiasasi" title="Link to this heading">#</a></h2>
 <div class="cell docutils container">
@@ -1771,7 +1771,7 @@ Pastikan nama kolom singkat dan mudah dipahami. Hindari penggunaan kata-kata yan
 <section id="penanganan-missing-value-dengan-metode-k-nearest-neightbour-knn">
 <h2>Penanganan missing value dengan metode K Nearest Neightbour (KNN)<a class="headerlink" href="#penanganan-missing-value-dengan-metode-k-nearest-neightbour-knn" title="Link to this heading">#</a></h2>
 <p>Jika kita merujuk pada ide “K Nearest Neightbour” atau “Tetangga Terdekat K”, itu adalah sebuah metode di mana kita mencari sejumlah tetangga terdekat dari data yang ingin diprediksi, dan kemudian membandingkan kelas dari tetangga tersebut untuk memprediksi kelas dari data yang baru. Jadi, kita dapat menggambarkan KNN sebagai teknik yang menggunakan jumlah tetangga terdekat untuk memprediksi kelasifikasi data baru. Penjelasan lebih rinci tentang cara kerjanya dapat ditemukan di bawah ini.</p>
-<img src="image-20240314-093855.png" width="" align="" /><p>penjelasan setiap langkah dan proses dari gambar di atas</p>
+<img src="./foto/image-20240314-093855.png" width="" align="" /><p>penjelasan setiap langkah dan proses dari gambar di atas</p>
 <section id="initial-data">
 <h3>1.INITIAL DATA<a class="headerlink" href="#initial-data" title="Link to this heading">#</a></h3>
 <p>Algoritma KNN melakukan klasifikasi dengan memproyeksikan data pembelajaran ke dalam ruang berdimensi banyak.
@@ -1785,7 +1785,7 @@ Teknik pencarian tetangga terdekat disesuaikan dengan dimensi data, proyeksi, da
 <p>Euclidean distance (jarak Euclidean) adalah metrik yang digunakan untuk mengukur jarak antara dua titik dalam ruang Euclidean. Dalam konteks analisis data dan pembelajaran mesin, jarak Euclidean sering digunakan untuk mengukur kedekatan atau kesamaan antara dua vektor atau titik dalam ruang fitur.</p>
 <p>metode yang di pakai untuk mencari jarak sebagai berikut</p>
 <p>A. Euclidean Distance</p>
-<img src="image-20240314-095109.png" width="" align="" /><p>RUMUS</p>
+<img src="./foto/image-20240314-095109.png" width="" align="" /><p>RUMUS</p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}\)</span></p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{(p_{1} - q_{1})^2 + (p_{2} - q_{2})^2 + ... + (p_{n} - q_{n})^2}\)</span></p>
 <p>B.MANHATTAN</p>
@@ -1795,7 +1795,7 @@ Teknik pencarian tetangga terdekat disesuaikan dengan dimensi data, proyeksi, da
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{\sum_{i=1}^{n} (p_{i} - q_{i})^2}\)</span></p>
 <p><span class="math notranslate nohighlight">\(d(P,Q) = \sqrt{(p_{1} - q_{1})^2 + (p_{2} - q_{2})^2 + ... + (p_{n} - q_{n})^2}\)</span></p>
 <p>Jarak Manhattan mirip dengan jarak yang akan ditempuh oleh taksi di kota Manhattan, di mana taksi harus mengikuti jalanan yang lurus ke atas, ke bawah, dan ke samping. Oleh karena itu, jarak Manhattan juga sering disebut sebagai “jarak City block” karena menyerupai perjalanan melalui jaringan jalan kota.</p>
-<img src="image-20240314-095609.png" width="" align="" /></section>
+<img src="./foto/image-20240314-095609.png" width="" align="" /></section>
 <section id="find-neightbour-mencari-tetangga">
 <h3>3.Find neightbour (Mencari tetangga)<a class="headerlink" href="#find-neightbour-mencari-tetangga" title="Link to this heading">#</a></h3>
 <p>Setelah melakukan perhitungan jarak terhadap fitur atau node, langkah berikutnya adalah melakukan perankingan jarak dari yang terdekat hingga yang terjauh. Proses ini melibatkan pengurutan hasil perhitungan jarak sehingga kita dapat mengetahui titik atau node yang paling dekat dengan referensi yang diberikan.</p>
